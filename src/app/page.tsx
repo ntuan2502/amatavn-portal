@@ -46,12 +46,13 @@ export default function Home() {
       className: "absolute top-24 left-[45%] rotate-[-7deg]",
       link: "https://mis.amata.com/car_booking/login.aspx",
     },
-    // {
-    //   title: "Canada",
-    //   image:
-    //     "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //   className: "absolute top-8 left-[30%] rotate-[4deg]",
-    // },
+    {
+      title: "Office 365",
+      image:
+        "https://portal.amata.com/vn/web/image/office365.jpg",
+      className: "absolute top-8 left-[30%] rotate-[4deg]",
+      link: "https://portal.office.com/",
+    },
   ];
   return (
     <DraggableCardContainer className="relative flex min-h-screen w-full items-center justify-center overflow-clip">
